@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion:"2010-09-09"
+Description: MyfirstEc2Instance
+Resources:
+ MyEC2instance:
+  Type: "AWS::EC2::instance"
+   Properties:
+    ImageId:"ami-b537a0cf"
+    InstanceType:t2.micro
+    KeyName:EC2key
